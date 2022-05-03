@@ -7,7 +7,7 @@ This plugin requires the following:
 * Rage Native UI (https://github.com/alexguirre/RAGENativeUI).
 
 # Installation
-1. Install prerequisite plugins and mods.
+1. Install prerequisites according to the latest release instructions. Ensure these are working correctly before troubleshooting issues with this plugin.
 2. Drag and drop the contents of the Zip file from the latest Release into your GTAV directory.
 3. Heirarchy should be:
 * [GTAV Root Directory]/plugins/LightsAndSirenIndicator.ini
@@ -18,5 +18,5 @@ This plugin requires the following:
 Please use the github Issues system to report issues.
 Feel free to modify the code for your own learning or to change colors/etc, but note that I will NOT be providing support for modified code.
 
-![Lights On while Siren is Silent](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/main/LightsOnSirenOff.png)
-![Lights Off while Siren is Available](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/main/LightsOffSirenOn.png)
+![Lights On while Siren is Silent](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/master/Extra/LightsOffSirenOn.png)
+![Lights Off while Siren is Available](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/master/Extra/LightsOnSirenOff.png)
