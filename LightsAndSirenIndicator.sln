@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LightsAndSirenIndicator", "LightsAndSirenIndicator.csproj", "{46B91445-53B6-4782-AF25-F777AAB38D6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Debug|x64.ActiveCfg = Debug|x64
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Debug|x64.Build.0 = Debug|x64
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Release|x64.ActiveCfg = Release|x64
+		{46B91445-53B6-4782-AF25-F777AAB38D6A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12A531D4-0E2B-4617-8343-17770046702D}
+	EndGlobalSection
+EndGlobal
