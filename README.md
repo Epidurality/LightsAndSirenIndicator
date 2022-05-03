@@ -12,6 +12,7 @@ This plugin requires the following:
 * [GTAV Root Directory]/plugins/LightsAndSirenIndicator.ini
 * [GTAV Root Directory]/plugins/LightsAndSirenIndicator.dll
 3. Edit the .ini file, which is commented and should be straight forward to modify to your liking.
+4. Ensure the plugin is set to load in the RageHookPlugin (RPH) launch settings. Alternatively, use *LoadPlugin LightsAndSirenIndicator.dll* in the RPH Console in-game (F4 by default while RPH is active).
 
 # Use
 * The Indicator will appear at the top middle of your screen whenever you are in a vehicle the game recognizes as a Police vehicle.
