@@ -24,8 +24,11 @@ This plugin requires the following:
 * Most of the above behavior can be configured or modified in the .INI file.
 
 # Support
-Please use the github Issues system to report issues.
+I wrote this plugin to get my feet wet into RPH plugin making. Please use the github Issues system to report issues.
 Feel free to modify the code for your own learning or to change colors/etc, but note that I will NOT be providing support for modified code.
+
+# Credits
+The original idea from user *goigle* on the LCPDFR forums.
 
 ![Lights On while Siren is Silent](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/master/Extra/LightsOffSirenOn.png)
 ![Lights Off while Siren is Available](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/master/Extra/LightsOnSirenOff.png)
