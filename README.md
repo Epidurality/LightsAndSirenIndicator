@@ -8,11 +8,19 @@ This plugin requires the following:
 
 # Installation
 1. Install prerequisites according to the latest release instructions. Ensure these are working correctly before troubleshooting issues with this plugin.
-2. Drag and drop the contents of the Zip file from the latest Release into your GTAV directory.
-3. Heirarchy should be:
+2. Drag and drop the contents of the Zip file from the latest Release into your GTAV directory. Files must be put into the RageHookPlugin 'plugins' folder.
 * [GTAV Root Directory]/plugins/LightsAndSirenIndicator.ini
 * [GTAV Root Directory]/plugins/LightsAndSirenIndicator.dll
-4. Edit the .ini file, which is commented and should be straight forward to modify to your liking.
+3. Edit the .ini file, which is commented and should be straight forward to modify to your liking.
+
+# Use
+* The Indicator will appear at the top middle of your screen whenever you are in a vehicle the game recognizes as a Police vehicle.
+* When the siren wail is silenced, the middle of the indicator will be blank. When the siren wail is active, the indicator will show "S".
+* When the lights are active, indicator will flash Red/Blue and alternate.
+* When lights are inactive, indicator will turn Gray and be static.
+* To 'blip' the siren (same sound as quickly turning on and off your siren+lights, but without the lights), use the "G" key by default.
+* To repair your vehicle, *you must assign a key in the .INI file*. By default it has been disabled, as many other plugins already perform this function.
+* Most of the above behavior can be configured or modified in the .INI file.
 
 # Support
 Please use the github Issues system to report issues.
