@@ -28,7 +28,7 @@ I wrote this plugin to get my feet wet into RPH plugin making. Please use the gi
 Feel free to modify the code for your own learning or to change colors/etc, but note that I will NOT be providing support for modified code.
 
 # Credits
-The original idea from user *goigle* on the LCPDFR forums.
+Plugin steals heavily from user goigle, who wrote the original First Person Siren/Light Indicator & Blip Siren Mod. While none of their work was used, this is clearly inspired by that plugin. As that plugin had a bug where the Blip key could not be changed/disabled, I decided to re-write a similar plugin as my first.
 
 ![Lights On while Siren is Silent](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/master/Extra/LightsOffSirenOn.png)
 ![Lights Off while Siren is Available](https://raw.githubusercontent.com/Epidurality/LightsAndSirenIndicator/master/Extra/LightsOnSirenOff.png)
