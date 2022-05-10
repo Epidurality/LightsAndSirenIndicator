@@ -33,10 +33,14 @@ namespace LightsAndSirenIndicator
             
             // Read ini file settings for Blip and attach keybinds
             Keys blipKey = (Keys)kc.ConvertFromString(ini.ReadString("Blip", "BlipKey", "G"));
+            ControllerButtons blipButton = ini.ReadEnum<ControllerButtons>("Blip", "BlipButton", ControllerButtons.None);
+            ControllerButtons blipButtonModifier = ini.ReadEnum<ControllerButtons>("Blip", "BlipButtonModifier", ControllerButtons.None);
 
             // Read ini file settings for Repair and attach keybinds
             Keys repairKey = (Keys)kc.ConvertFromString(ini.ReadString("Repair", "RepairKey", "None"));
-            
+            ControllerButtons repairButton = ini.ReadEnum<ControllerButtons>("Repair", "RepairButton", ControllerButtons.None);
+            ControllerButtons repairButtonModifier = ini.ReadEnum<ControllerButtons>("Repair", "RepairButtonModifier", ControllerButtons.None);
+
             // Set up additional variables for use in loop
             Vehicle vehicle;
             bool swap = true;
@@ -52,7 +56,7 @@ namespace LightsAndSirenIndicator
                 if (vehicle.Exists() && vehicle.Driver == Game.LocalPlayer.Character) // If player is driving a vehicle...
                 {
                     // Check if the user is requesting a repair.
-                    if (Game.IsKeyDown(repairKey))
+                    if (Game.IsKeyDown(repairKey) || (Game.IsControllerButtonDownRightNow(repairButtonModifier) && Game.IsControllerButtonDown(repairButton)))
                     {
                         vehicle.Repair();
                         Game.DisplayNotification($"Vehicle repaired");
@@ -61,7 +65,7 @@ namespace LightsAndSirenIndicator
                     if (vehicle.IsPoliceVehicle)
                     {
                         // Check if user is trying to blip.
-                        if (Game.IsKeyDown(blipKey))
+                        if (Game.IsKeyDown(blipKey) || (Game.IsControllerButtonDownRightNow(blipButtonModifier) && Game.IsControllerButtonDown(blipButton)))
                         {
                             vehicle.BlipSiren(true); // Using false does not allow blip to occur if emergency lights are on. Using true allows blip to inturrupt siren, but also allows blip with lights active.
                         }
